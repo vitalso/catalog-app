@@ -15,7 +15,7 @@
 			.item__box__desc
 				h5.item__box__title Geschwindigkeitsverstoß
 				p Sie sollen zu schnell gefahren sein? Wir zeigen Ihnen wie teuer es wird
-				router-link(to="/page_2" , v-on:click.native="$emit('subTitle')") KATALOG AUFRUFEN
+				router-link(to="/page_2") KATALOG AUFRUFEN
 
 		.item__box
 			.item__box__icon

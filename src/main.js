@@ -9,6 +9,7 @@ import Page_3 from './components/Page_3.vue'
 import Page_4 from './components/Page_4.vue'
 import Wahlen from './components/Wahlen.vue'
 import Page_6 from './components/Page_6.vue'
+import Calculator_speed from './components/CalculatorSpeed.vue'
 import PageList from './components/PageList.vue'
 import List from './components/List.vue'
 
@@ -22,6 +23,7 @@ var router = new VueRouter({
 		{ path: '/page_4' , component: Page_4 , meta: { pageTitle: 'Was wird Ihnen vorgeworfen?' , navTitle: 'KATALOG ROTLICHT' } },
 		{ path: '/wahlen' , component: Wahlen , meta: { pageTitle: 'Wählen Sie einen Bußgeldrechner' , navTitle: 'BUßGELDRECHNER WÄHLEN' } },
 		{ path: '/page_6' , component: Page_6 , meta: { pageTitle: 'Impressum' , navTitle: 'BUßGELDRECHNER WÄHLEN' } },
+		{ path: '/calculator_speed' , component: Calculator_speed , meta: { navTitle: 'BUßGELDRECHNER' } },
 		{ path: '/list/id' , name: 'list' , component: List }
 	]
 })

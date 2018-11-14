@@ -6,7 +6,7 @@
 				img(src="src/assets/icon-1.png")
 			.item__box__desc
 				h5.item__box__title Geschwindigkeitsverstoß
-				router-link(to="/page_2" , v-on:click.native="$emit('subTitle')") KATALOG AUFRUFEN
+				router-link(to="/calculator_speed") KATALOG AUFRUFEN
 
 		.item__box
 			.item__box__icon
