@@ -4,7 +4,7 @@
     header
       nav.navbar
         .container-fluid
-          a(href='/' , v-bind:class=" { 'is-visible': $route.path != '/' } ").back: i.fas.fa-chevron-left
+          a(href='index.html' , v-bind:class=" { 'is-visible': $route.path != '/' } ").back: i.fas.fa-chevron-left
 
           a(href='index.html').navbar-brand.logo.mr-auto {{ navTitle }}
 
@@ -36,11 +36,11 @@
                   span.nav-icon
                   | Abstandsverstoß
               li
-                router-link(to="/page4")
+                router-link(to="/page_4")
                   span.nav-icon
                   | Rotlichtverstoß
               li
-                router-link(to="/page5")
+                router-link(to="/wahlen")
                   span.nav-icon
                   | Bußgeldrechner
 

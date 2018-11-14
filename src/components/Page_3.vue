@@ -12,55 +12,7 @@
 		#up-130
 			.item__box
 				.box__side
-					h4 bis 10 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 10 € 
-						li Punkte: 0 
-						li Fahrverbot: 0
-
-			.item__box
-				.box__side
-					h4 10-15 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 25 € 
-						li Punkte: 0 
-						li Fahrverbot: 0
-
-			.item__box
-				.box__side
-					h4 16-20 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 35 € 
-						li Punkte: 0 
-						li Fahrverbot: 0
-
-			.item__box
-				.box__side
-					h4 21-25 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 80 € 
-						li Punkte: 1 
-						li Fahrverbot: 0
-
-			.item__box
-				.box__side
-					h4 26-30 km/h
+					h4 5/10 des halben Tachowertes
 					p: a(href="#").default__btn Einspruch sinnvoll?
 					p: a(href="#") Hier gratis prüfen
 
@@ -68,172 +20,193 @@
 					ul.box__list
 						li Strafe: 100 € 
 						li Punkte: 1 
-						li: span Fahrverbot im Wiederholungsfall
-
-			.item__box
-				.box__side
-					h4 31-40 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 160 € 
-						li Punkte: 2
-						li Fahrverbot: 1 Monat
-
-			.item__box
-				.box__side
-					h4 41-50 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 200 € 
-						li Punkte: 2
-						li Fahrverbot: 1 Monat
-
-			.item__box
-				.box__side
-					h4 51-60 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 280 € 
-						li Punkte: 2
-						li Fahrverbot: 2 Monat
-
-		ul.inner__nav.right-nav
-			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -50 } ) > 130 km/h
-			li: a(href="#" , v-scroll-to={ el: '#up-100' , duration: 1000 , offset: -50 } ).active__link > 100 km/h
-			li: a(href="#" , v-scroll-to={ el: '#up-80' , duration: 1000 , offset: -50 } ) > 80 km/h
-
-		h3 Verstoß innerorts
-
-		#up-100
-			.item__box
-				.box__side
-					h4 bis 10 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 10 € 
-						li Punkte: 0 
 						li Fahrverbot: 0
 
 			.item__box
 				.box__side
-					h4 10-15 km/h
+					h4 4/10 des halben Tachowertes
 					p: a(href="#").default__btn Einspruch sinnvoll?
 					p: a(href="#") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
-						li Strafe: 20 € 
-						li Punkte: 0 
-						li Fahrverbot: 0
-
-			.item__box
-				.box__side
-					h4 16-20 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 30 € 
-						li Punkte: 0 
-						li Fahrverbot: 0
-
-			.item__box
-				.box__side
-					h4 21-25 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 70 € 
+						li Strafe: 180 € 
 						li Punkte: 1 
 						li Fahrverbot: 0
 
 			.item__box
 				.box__side
-					h4 26-30 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 80 € 
-						li Punkte: 1 
-						li: span Fahrverbot im Wiederholungsfall
-
-			.item__box
-				.box__side
-					h4 31-40 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 120 € 
-						li Punkte: 1
-						li: span Fahrverbot im Wiederholungsfall
-
-			.item__box
-				.box__side
-					h4 41-50 km/h
-					p: a(href="#").default__btn Einspruch sinnvoll?
-					p: a(href="#") Hier gratis prüfen
-
-				.box__side
-					ul.box__list
-						li Strafe: 160 € 
-						li Punkte: 2
-						li Fahrverbot: 1 Monat
-
-			.item__box
-				.box__side
-					h4 51-60 km/h
+					h4 3/10 des halben Tachowertes
 					p: a(href="#").default__btn Einspruch sinnvoll?
 					p: a(href="#") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
 						li Strafe: 240 € 
-						li Punkte: 2
+						li Punkte: 2 
 						li Fahrverbot: 1 Monat
 
 			.item__box
 				.box__side
-					h4 61-70 km/h
+					h4 2/10 des halben Tachowertes
 					p: a(href="#").default__btn Einspruch sinnvoll?
 					p: a(href="#") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
-						li Strafe: 440 € 
-						li Punkte: 2
-						li Fahrverbot: 1 Monat
+						li Strafe: 320 € 
+						li Punkte: 2 
+						li Fahrverbot: 2 Monat
 
 			.item__box
 				.box__side
-					h4 über 70 km/h
+					h4 1/10 des halben Tachowertes
 					p: a(href="#").default__btn Einspruch sinnvoll?
 					p: a(href="#") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
-						li Strafe: 600 € 
+						li Strafe: 400 € 
 						li Punkte: 2
-						li Fahrverbot: 3 Monat
+						li Fahrverbot: 3 Monate
 
+		ul.inner__nav.right-nav
+			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -50 } ) > 130 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-100' , duration: 1000 , offset: -50 } ).active__link > 100 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-80' , duration: 1000 , offset: -50 } ) > 80 km/h
+
+		h3 Verstoß bei über 100 km/h
+
+		#up-100
+			.item__box
+				.box__side
+					h4 5/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 75 € 
+						li Punkte: 1 
+						li Fahrverbot: 0
+
+			.item__box
+				.box__side
+					h4 4/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 100 € 
+						li Punkte: 1 
+						li Fahrverbot: 0
+
+			.item__box
+				.box__side
+					h4 3/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 160 € 
+						li Punkte: 2 
+						li Fahrverbot: 1 Monat
+
+			.item__box
+				.box__side
+					h4 2/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 240 € 
+						li Punkte: 2 
+						li Fahrverbot: 2 Monat
+
+			.item__box
+				.box__side
+					h4 1/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 320 € 
+						li Punkte: 2 
+						li Fahrverbot: 3 Monate
+
+		ul.inner__nav.right-nav
+			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -50 } ) > 130 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-100' , duration: 1000 , offset: -50 } ) > 100 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-80' , duration: 1000 , offset: -50 } ).active__link > 80 km/h
+
+		h3 Verstoß bei über 80 km/h
+
+		#up-80
+			.item__box
+				.box__side
+					h4 5/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 75 € 
+						li Punkte: 1 
+						li Fahrverbot: 0
+
+			.item__box
+				.box__side
+					h4 4/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 100 € 
+						li Punkte: 1 
+						li Fahrverbot: 0
+
+			.item__box
+				.box__side
+					h4 3/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 160 € 
+						li Punkte: 2 
+						li Fahrverbot: 1 Monat
+
+			.item__box
+				.box__side
+					h4 2/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 240 € 
+						li Punkte: 2 
+						li Fahrverbot: 0
+
+			.item__box
+				.box__side
+					h4 1/10 des halben Tachowertes
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
+				.box__side
+					ul.box__list
+						li Strafe: 320 € 
+						li Punkte: 1 
+						li Fahrverbot: 0
+
+			
 </template>
 
 <script>
