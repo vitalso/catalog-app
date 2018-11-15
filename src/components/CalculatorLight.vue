@@ -4,43 +4,39 @@
 		form.calculate
 
 			.item__box
-				h5.item__box__title Was für ein Fahrzeug wurde gefahren?
+				h5.item__box__title War die Ampel schon länger als 1 Sekunde rot?
 
 				.box__form
 					.form__row
 						.form__input
 							input(type="radio" , name="radio1" , checked)#radio-1
 							span
-							label(for="radio-1") PKW
-
+							label(for="radio-1") Ja
 						.form__input
 							input(type="radio" , name="radio1")#radio-2
 							span
-							label(for="radio-2") LKW
-
+							label(for="radio-2") Nein
 			.item__box
-				h5.item__box__title Wo wurden Sie gemessen?
+				h5.item__box__title Ist eine Gefährdung oder ein Sachschaden entstanden?
 
 				.box__form
 					.form__row
 						.form__input
 							input(type="radio" , name="radio2" , checked)#radio-3
 							span
-							label(for="radio-3") Außerorts
+							label(for="radio-3") Nein
 
+					.form__row
 						.form__input
 							input(type="radio" , name="radio2")#radio-4
 							span
-							label(for="radio-4") Innerorts
+							label(for="radio-4") Gefährdung
 
-			.item__box
-				h5.item__box__title Wieviel sind Sie zu schnell gefahren?
-
-				.box__form
-					.number__range
-						span(v-text="sliderValue")
-						| km / h
-					range-slider(class="slider" , min="10" , max="100" , step="1" , v-model="sliderValue")
+					.form__row
+						.form__input
+							input(type="radio" , name="radio2")#radio-5
+							span
+							label(for="radio-5") Sachschaden
 
 </template>
 
@@ -53,7 +49,7 @@
 	export default {
 	  data () {
 	    return {
-	      sliderValue: 20
+	      sliderValue: 2
 	    }
 	  },
 	  components: {
@@ -64,13 +60,13 @@
 </script>
 
 <style lang="scss">
-	
-	header {
-		margin-bottom: 20px;
-	}
 
 	.item {
 		padding-top: 86px;
+	}
+	
+	header {
+		margin-bottom: 20px;
 	}
 
 	.item__box {
@@ -94,9 +90,13 @@
 
 	.box__form {
 		.form__row {
+			margin-bottom: 15px;
 			display: flex;
 			-webkit-justify-content: space-between;
 			        justify-content: space-between;
+				&:last-child {
+					margin-bottom: 0;
+				}
 		}
 		.form__input {
 			position: relative;

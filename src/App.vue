@@ -4,7 +4,7 @@
     header
       nav.navbar
         .container-fluid
-          a(href='index.html' , v-bind:class=" { 'is-visible': $route.path != '/' } ").back: i.fas.fa-chevron-left
+          a(href="index.html" , v-bind:class=" { 'is-visible': $route.path != '/' } ").back: i.fas.fa-chevron-left
 
           a(href='index.html').navbar-brand.logo.mr-auto {{ navTitle }}
 
@@ -13,13 +13,13 @@
             span.line
             span.line
 
-          .side-navbar-nav(v-show="isHidden")
+          .side-navbar-nav(v-bind:class="{ navbar_open: isHidden }")
             .side-navbar-title
               span MENÜ
             
             ul.side-nav
               li
-                router-link(to="/")
+                router-link(to="/" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                   | Übersicht
 
@@ -28,19 +28,19 @@
 
             ul.side-nav
               li
-                router-link(to="/page_2")
+                router-link(to="/page_2" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                   | Geschwindigkeitsverstoß
               li
-                router-link(to="/page_3")
+                router-link(to="/page_3" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                   | Abstandsverstoß
               li
-                router-link(to="/page_4")
+                router-link(to="/page_4" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                   | Rotlichtverstoß
               li
-                router-link(to="/wahlen")
+                router-link(to="/wahlen" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                   | Bußgeldrechner
 
@@ -49,19 +49,21 @@
 
             ul.side-nav
               li
-                router-link(to="/page_6") Impressum
+                router-link(to="/page_6" , v-on:click.native='isHidden = !isHidden') Impressum
               li
-                router-link(to="/page7") Test Toast
+                router-link(to="/page7" , v-on:click.native='isHidden = !isHidden') Test Toast
 
     app-title
-
-    router-view
+    
+    transition(name="page" , mode="out-in")
+      router-view
 
 </template>
 
 <script>
 
   import Title from './components/Title.vue'
+  //import router from '../router'
 
   export default {
 
@@ -72,15 +74,19 @@
     data: function() {
       return {
         navTitle: 'BUSSGELDKATALOG-2018',
-        //pageTitle: 'Was wird ihnen vorgeworfen?',
         isHidden: false
       }
     },
 
+    /*methods: {
+      back() {
+        this.$route.go(-1);
+      }
+    },*/
+
     watch: {
         '$route' (to, from) {
           this.navTitle = to.meta.navTitle
-          console.log(to.meta.navTitle)
         }
     }
 
@@ -90,13 +96,30 @@
 
 <style lang="scss">
 
+.page-enter-active, .page-leave-active {
+  transition: opacity .3s, transform .3s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+  transform: translateX(-30%);
+}
+
+
 $red-color: #C92339;
+
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
 
 // Navbar
 .navbar {
+  height: 60px;
   padding: 15px 5px;
   background: $red-color;
-  position: inherit;
   
   .back {
     display: none;
@@ -112,12 +135,17 @@ $red-color: #C92339;
   }
   
   .side-navbar-nav {
-    position: absolute;
+    position: fixed;
     width: 90%;
     height: 100%;
     right: 0;
     top: 0;
     background: #fff;
+    transform: translateX(150%);
+    transition: all .3s ease-in-out;
+      &.navbar_open {
+        transform: translateX(0);
+      }
       &:after {
         content: "";
         position: absolute;
@@ -128,8 +156,10 @@ $red-color: #C92339;
         background: rgba(0, 0, 0, 0.5);
       }
       .side-navbar-title {
+        height: 60px;
         padding: 15px 25px;
         background: $red-color;
+        line-height: 30px;
         text-transform: uppercase;
         font-size: 18px;
         font-weight: 700;

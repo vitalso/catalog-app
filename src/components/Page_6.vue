@@ -10,6 +10,7 @@
 <style lang="scss">
 	
 	.impressum {
+		padding-top: 136px;
 		color: #a5a5a5;
 	}
 

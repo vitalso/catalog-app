@@ -9,7 +9,7 @@
 				router-link(:to="{ name: 'list' , params: { id: index } }") KATALOG AUFRUFEN-->
 
 	div.item.container-fluid
-		.item__box
+		router-link(to="/page_2").item__box
 			.item__box__icon
 				img(src="src/assets/icon-1.png")
 			.item__box__desc
@@ -17,7 +17,7 @@
 				p Sie sollen zu schnell gefahren sein? Wir zeigen Ihnen wie teuer es wird
 				router-link(to="/page_2") KATALOG AUFRUFEN
 
-		.item__box
+		router-link(to="/page_3").item__box
 			.item__box__icon
 				img(src="src/assets/icon-2.png")
 			.item__box__desc
@@ -25,7 +25,7 @@
 				p Sie sollen den erforderlichen Mindestabstand nicht eingehalten haben?
 				router-link(to="/page_3") KATALOG AUFRUFEN
 
-		.item__box
+		router-link(to="/page_4").item__box
 			.item__box__icon
 				img(src="src/assets/icon-3.png")
 			.item__box__desc
@@ -35,7 +35,7 @@
 
 		.list__title Interaktiver Rechner
 
-		.item__box
+		router-link(to="/wahlen").item__box
 			.item__box__icon
 				img(src="src/assets/icon-3.png")
 			.item__box__desc
@@ -65,7 +65,11 @@
 </script>
 
 <style lang="scss">
+	.item {
+		padding-top: 136px;
+	}
 	.item__box {
+		display: block;
 		margin-bottom: 30px;
 		padding: 30px 15px;
 		color: #a5a5a5;
@@ -86,7 +90,7 @@
     			}
 		}
 		&__desc {
-			padding-left: 115px;
+			padding-left: 90px;
 		}
 		&__title {
 			margin-bottom: 20px;
@@ -98,6 +102,9 @@
 			font-size: 12px;
 			font-weight: 700;
 			color: #C92339;
+		}
+		&:hover {
+			color: #a5a5a5;
 		}
 	}
 

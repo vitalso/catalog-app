@@ -27,8 +27,11 @@
 
 <style lang="scss">
 	.title__section {
+		position: fixed;
+		top: 60px;
+		left: 0;
+		width: 100%;
 		background: #f2f2f2;
-		margin-bottom: 20px;
 		padding: 15px 20px;
 			h1 {
 				margin: 0;

@@ -1,11 +1,11 @@
 <template lang="pug">
 	
-	.container-fluid
+	.item.container-fluid
 
 		ul.inner__nav.right-nav
-			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -50 } ).active__link > 130 km/h
-			li: a(href="#" , v-scroll-to={ el: '#up-100' , duration: 1000 , offset: -50 } ) > 100 km/h
-			li: a(href="#" , v-scroll-to={ el: '#up-80' , duration: 1000 , offset: -50 } ) > 80 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -150 } ).active__link > 130 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-100' , duration: 1000 , offset: -150 } ) > 100 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-80' , duration: 1000 , offset: -150 } ) > 80 km/h
 
 		h3 Verstoß bei über 130 km/h
 
@@ -71,9 +71,9 @@
 						li Fahrverbot: 3 Monate
 
 		ul.inner__nav.right-nav
-			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -50 } ) > 130 km/h
-			li: a(href="#" , v-scroll-to={ el: '#up-100' , duration: 1000 , offset: -50 } ).active__link > 100 km/h
-			li: a(href="#" , v-scroll-to={ el: '#up-80' , duration: 1000 , offset: -50 } ) > 80 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -150 } ) > 130 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-100' , duration: 1000 , offset: -150 } ).active__link > 100 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-80' , duration: 1000 , offset: -150 } ) > 80 km/h
 
 		h3 Verstoß bei über 100 km/h
 
@@ -139,9 +139,9 @@
 						li Fahrverbot: 3 Monate
 
 		ul.inner__nav.right-nav
-			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -50 } ) > 130 km/h
-			li: a(href="#" , v-scroll-to={ el: '#up-100' , duration: 1000 , offset: -50 } ) > 100 km/h
-			li: a(href="#" , v-scroll-to={ el: '#up-80' , duration: 1000 , offset: -50 } ).active__link > 80 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -150 } ) > 130 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-100' , duration: 1000 , offset: -150 } ) > 100 km/h
+			li: a(href="#" , v-scroll-to={ el: '#up-80' , duration: 1000 , offset: -150 } ).active__link > 80 km/h
 
 		h3 Verstoß bei über 80 km/h
 
@@ -214,6 +214,10 @@
 </script>
 
 <style lang="scss">
+
+	.item {
+		padding-top: 136px;
+	}
 	
 	.inner__nav {
 		display: flex;

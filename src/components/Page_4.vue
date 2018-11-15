@@ -1,6 +1,6 @@
 <template lang="pug">
 	
-	.container-fluid
+	.item.container-fluid
 
 		.item__box
 			.box__side
@@ -94,6 +94,10 @@
 </script>
 
 <style lang="scss">
+
+	.item {
+		padding-top: 136px;
+	}
 	
 	.inner__nav {
 		display: flex;

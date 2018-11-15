@@ -1,10 +1,10 @@
 <template lang="pug">
 	
-	.container-fluid
+	.item.container-fluid
 
 		ul.inner__nav.right-nav
-			li: a(href="#" , v-scroll-to={ el: '#auserorts' , duration: 1000 , offset: -50 } ).active__link Außerorts
-			li: a(href="#" , v-scroll-to={ el: '#innerorts' , duration: 1000 , offset: -50 } ) Innerorts
+			li: a(href="#" , v-scroll-to={ el: '#auserorts' , duration: 1000 , offset: -150 } ).active__link Außerorts
+			li: a(href="#" , v-scroll-to={ el: '#innerorts' , duration: 1000 , offset: -150 } ) Innerorts
 
 		h3 Verstoß außerorts
 
@@ -106,8 +106,8 @@
 						li Fahrverbot: 2 Monat
 
 		ul.inner__nav.right-nav
-			li: a(href="#" , v-scroll-to={ el: '#auserorts' , duration: 1000 , offset: -50 } ) Außerorts
-			li: a(href="#" , v-scroll-to={ el: '#innerorts' , duration: 1000 , offset: -50 } ).active__link Innerorts
+			li: a(href="#" , v-scroll-to={ el: '#auserorts' , duration: 1000 , offset: -150 } ) Außerorts
+			li: a(href="#" , v-scroll-to={ el: '#innerorts' , duration: 1000 , offset: -150 } ).active__link Innerorts
 
 		h3 Verstoß innerorts
 
@@ -239,6 +239,10 @@
 </script>
 
 <style lang="scss">
+
+	.item {
+		padding-top: 136px;
+	}
 	
 	.inner__nav {
 		display: flex;

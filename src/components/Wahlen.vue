@@ -1,26 +1,26 @@
 <template lang="pug">
 
 	div.item.container-fluid
-		.item__box
+		router-link(to="/calculator_speed").item__box
 			.item__box__icon
 				img(src="src/assets/icon-1.png")
 			.item__box__desc
 				h5.item__box__title Geschwindigkeitsverstoß
 				router-link(to="/calculator_speed") KATALOG AUFRUFEN
 
-		.item__box
+		router-link(to="/calculator_distance").item__box
 			.item__box__icon
 				img(src="src/assets/icon-2.png")
 			.item__box__desc
 				h5.item__box__title Abstandsverstoß
-				router-link(to="/page_3") KATALOG AUFRUFEN
+				router-link(to="/calculator_distance") KATALOG AUFRUFEN
 
-		.item__box
+		router-link(to="/calculator_light").item__box
 			.item__box__icon
 				img(src="src/assets/icon-3.png")
 			.item__box__desc
 				h5.item__box__title Rotlichtverstoß
-				router-link(to="/page_4") KATALOG AUFRUFEN
+				router-link(to="/calculator_light") KATALOG AUFRUFEN
 
 </template>
 
