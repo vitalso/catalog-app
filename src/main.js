@@ -13,13 +13,14 @@ import Calculator_speed from './components/CalculatorSpeed.vue'
 import Calculator_distance from './components/CalculatorDistance.vue'
 import Calculator_light from './components/CalculatorLight.vue'
 import PageList from './components/PageList.vue'
+import CallToAction from './components/CallToAction.vue'
 import List from './components/List.vue'
 
 Vue.use(VueRouter)
 
 var router = new VueRouter({
 	routes: [
-		{ path: '/' , component: PageList },
+		{ path: '/' , component: PageList , meta: { pageTitle: 'Was wird ihnen vorgeworfen?' , navTitle: 'BUSSGELDKATALOG-2018' } },
 		{ path: '/page_2' , component: Page_2 , meta: { pageTitle: 'Wieviel sind Sie zu schnell gefahren?' , navTitle: 'KATALOG GESCHWINDIGKEIT' } },
 		{ path: '/page_3' , component: Page_3 , meta: { pageTitle: 'Abstand zum vorausfahrenden Fahrzeug' , navTitle: 'KATALOG ABSTAND' } },
 		{ path: '/page_4' , component: Page_4 , meta: { pageTitle: 'Was wird Ihnen vorgeworfen?' , navTitle: 'KATALOG ROTLICHT' } },
@@ -35,6 +36,7 @@ var router = new VueRouter({
 Vue.use(VueScrollTo)
 
 Vue.component ('list-item' , PageList)
+Vue.component ('cta' , CallToAction)
 
 new Vue({
   el: '#app',

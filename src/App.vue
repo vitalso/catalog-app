@@ -4,7 +4,7 @@
     header
       nav.navbar
         .container-fluid
-          a(href="index.html" , v-bind:class=" { 'is-visible': $route.path != '/' } ").back: i.fas.fa-chevron-left
+          router-link(to="/" , v-bind:class=" { 'is-visible': $route.path != '/' } ").back: i.fas.fa-chevron-left
 
           a(href='index.html').navbar-brand.logo.mr-auto {{ navTitle }}
 
@@ -21,6 +21,7 @@
               li
                 router-link(to="/" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
+                    img(src="src/assets/icon-1.png")
                   | Übersicht
 
             .side-chapter
@@ -30,18 +31,22 @@
               li
                 router-link(to="/page_2" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
+                    img(src="src/assets/icon-1.png")
                   | Geschwindigkeitsverstoß
               li
                 router-link(to="/page_3" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
+                    img(src="src/assets/icon-2.png")
                   | Abstandsverstoß
               li
                 router-link(to="/page_4" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
+                    img(src="src/assets/icon-3.png")
                   | Rotlichtverstoß
               li
                 router-link(to="/wahlen" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
+                    img(src="src/assets/icon-4.png")
                   | Bußgeldrechner
 
             .side-chapter
@@ -63,7 +68,6 @@
 <script>
 
   import Title from './components/Title.vue'
-  //import router from '../router'
 
   export default {
 
@@ -77,12 +81,6 @@
         isHidden: false
       }
     },
-
-    /*methods: {
-      back() {
-        this.$route.go(-1);
-      }
-    },*/
 
     watch: {
         '$route' (to, from) {
@@ -183,10 +181,16 @@ header {
         vertical-align: middle;
         width: 34px;
         height: 34px;
+        text-align: center;
+        line-height: 30px;
         margin-right: 15px;
         background: #f0f0f0;
         -webkit-border-radius: 50%;
                 border-radius: 50%;
+          img {
+            max-width: 25px;
+            max-height: 17px;
+          }
       }
   }
 
@@ -213,11 +217,11 @@ header {
   }
 
   .navbar-toggler {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     padding: 0;
     line-height: .5;
-    font-size: 14px;
+    font-size: 12px;
     z-index: 2;
     border: none;
     -webkit-border-radius: 0;
@@ -261,8 +265,8 @@ header {
   }
 
   .line {
-    width: 30px;
-    height: 3px;
+    width: 25px;
+    height: 2px;
     background: #fff;
     display: inline-block;
   }

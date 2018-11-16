@@ -1,7 +1,7 @@
 <template lang="pug">
 
-	div.item.container-fluid
-		form.calculate
+	div.item.calculate.container-fluid
+		form
 
 			.item__box
 				h5.item__box__title Was für ein Fahrzeug wurde gefahren?
@@ -40,7 +40,7 @@
 					.number__range
 						span(v-text="sliderValue")
 						| km / h
-					range-slider(class="slider" , min="10" , max="100" , step="1" , v-model="sliderValue")
+					range-slider(class="slider" , min="0" , max="100" , step="1" , v-model="sliderValue")
 
 </template>
 
@@ -53,7 +53,7 @@
 	export default {
 	  data () {
 	    return {
-	      sliderValue: 20
+	      sliderValue: 0
 	    }
 	  },
 	  components: {
@@ -64,121 +64,7 @@
 </script>
 
 <style lang="scss">
-	
-	header {
-		margin-bottom: 20px;
-	}
 
-	.item {
-		padding-top: 86px;
-	}
 
-	.item__box {
-		position: relative;
-		margin-bottom: 30px;
-		padding: 30px 15px;
-		color: #a5a5a5;
-		-webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-		        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-		&__title {
-			margin-bottom: 20px;
-			font-size: 18px;
-			font-weight: 500;
-			color: #000;
-		}
-	}
-
-	.title__section {
-		display: none;
-	}
-
-	.box__form {
-		.form__row {
-			display: flex;
-			-webkit-justify-content: space-between;
-			        justify-content: space-between;
-		}
-		.form__input {
-			position: relative;
-			-webkit-flex-basis: 50%;
-			        flex-basis: 50%;
-			input[type="radio"] {
-				width: 35px;
-				height: 35px;
-				position: absolute;
-				z-index: 2;
-				opacity: 0;
-				cursor: pointer;
-					&:checked + span {
-						&:after {
-							content: "";
-							position: absolute;
-							top: 7px;
-							left: 7px;
-							width: 21px;
-							height: 21px;
-							background: #C92339;
-							-webkit-border-radius: 50%;
-							        border-radius: 50%;
-						}
-						& + label {
-							font-weight: 700;
-							color: #010101;
-						}
-					}
-			}
-			span {
-				width: 35px;
-				height: 35px;
-				margin-right: 13px;
-				display: inline-block;
-				vertical-align: middle;
-				background: #f0f0f0;
-				position: relative;
-				-webkit-border-radius: 50%;
-				        border-radius: 50%;
-				cursor: pointer;
-			}
-			label {
-				margin: 0;
-				font-weight: 400;
-				font-size: 18px;
-				color: #525252;
-			}
-		}
-	}
-
-	.slider {
-		width: 100%;
-		position: absolute;
-    	left: 0;
-    	bottom: -7px;
-    	padding: 0;
-			.range-slider-rail {
-				height: 6px;
-			    background-color: #F2B7C0;
-			}
-			.range-slider-fill {
-				height: 6px;
-			    background-color: #C92339;
-			}
-			.range-slider-knob {
-				width: 31px;
-				height: 31px;
-				border: 2px solid #cdcdcd;
-				-webkit-box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, .16);
-				        box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, .16);
-			}
-	}
-
-	.number__range {
-		margin-bottom: 15px;
-		font-size: 26px;
-		font-weight: 500;
-		color: #000;
-			span {
-				margin-right: 5px;
-			}
-	}
 
 </style>

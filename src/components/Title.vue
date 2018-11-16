@@ -1,6 +1,6 @@
 <template lang="pug">
 	
-	.title__section(v-bind:class=" { 'inner-title': $route.path != '/' } ")
+	.title__section(v-bind:class=" { 'inner-title': $route.path != '/' , 'hidden': $route.path == '/calculator_speed' || $route.path== '/calculator_distance' || $route.path == '/calculator_light' } ")
 		h1 {{ pageTitle }}
 
 </template>
@@ -17,7 +17,6 @@
 		watch: {
 		    '$route' (to, from) {
 		    	this.pageTitle = to.meta.pageTitle
-		      	console.log(to.meta.pageTitle)
 		    }
 		}
 
@@ -26,6 +25,7 @@
 </script>
 
 <style lang="scss">
+	/*@import '../scss/title.scss'*/
 	.title__section {
 		position: fixed;
 		top: 60px;
@@ -33,17 +33,20 @@
 		width: 100%;
 		background: #f2f2f2;
 		padding: 15px 20px;
-			h1 {
+	}
+
+			.title__section h1 {
 				margin: 0;
 				font-size: 22px;
 				font-weight: 500;
 			}
-			&.inner-title {
-				h1 {
+			.title__section.inner-title h1 {
 					font-weight: 400;
 					font-size: 14px;
 					color: #404040;
-				}
 			}
-	}
+
+		.title__section.hidden {
+			display: none;
+		}
 </style>

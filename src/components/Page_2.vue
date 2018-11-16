@@ -1,6 +1,6 @@
 <template lang="pug">
 	
-	.item.container-fluid
+	.item.inner.container-fluid
 
 		ul.inner__nav.right-nav
 			li: a(href="#" , v-scroll-to={ el: '#auserorts' , duration: 1000 , offset: -150 } ).active__link Außerorts
@@ -232,102 +232,92 @@
 						li Punkte: 2
 						li Fahrverbot: 3 Monat
 
+		cta
+
 </template>
 
 <script>
 
 </script>
 
-<style lang="scss">
-
-	.item {
-		padding-top: 136px;
-	}
+<style>
 	
 	.inner__nav {
 		display: flex;
 		-webkit-justify-content: space-between;
 		        justify-content: space-between;
+		margin-bottom: 30px;
 		font-size: 16px;
 		font-weight: 500;
 		border-top: 2px solid #f2f2f2;
 		border-bottom: 2px solid #f2f2f2;
-		li {
+	}
+		.inner__nav li {
 			-webkit-flex-basis: 50%;
 			        flex-basis: 50%;
-			&:last-child {
-				a {
-					padding-right: 13px;
-				}
-			}
 		}
-		a {
+			.inner__nav li:last-child a {
+					padding-right: 13px;
+			}
+
+		.inner__nav a {
 			display: block;
 			padding-left: 13px;
 			padding-top: 7px;
 			padding-bottom: 7px;
 			color: #a9a9a9;
-				&.active__link {
+		}
+				.inner__nav a.active__link {
 					background: #ececec;
 					color: #000;
 				}
-		}
-		&.right-nav {
-			li:last-child {
+		
+		.inner__nav.right-nav li:last-child {
 				text-align: right;
-			}
 		}
-	}
 
 	h3 {
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 		font-size: 22px;
 		font-weight: 500;
 	}
 
-	.item__box {
-		margin-bottom: 30px;
-		padding: 20px 15px;
-		color: #737373;
-		display: flex;
+	.inner .item__box {
 		-webkit-justify-content: space-between;
 		        justify-content: space-between;
-		-webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-		        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+	}
 		
-			h4 {
+			.inner .item__box h4 {
 				margin-bottom: 30px;
 				font-size: 18px;
 				font-weight: 500;
 				color: #000;
 			}
 
-			p {
+			.inner .item__box p {
 				margin: 0;
 			}
 
-			a {
+			.inner .item__box a {
 				font-size: 12px;
-					&.default__btn {
+			}
+					.inner .item__box a.default__btn {
 						color: #000;
 					}
-			}
 
-			.box__list {
+			.inner .item__box .box__list {
 				width: 120px;
 				margin: 0;
 				padding-top: 10px;
 				padding-bottom: 10px;
 				text-align: right;
 				border-left: 2px solid #d6d6d6;
-				li {
+			}
+				.inner .item__box .box__list li {
 					margin-bottom: 8px;
-						span {
+				}
+						.inner .item__box .box__list li span {
 							font-size: 12px;
 						}
-				}
-			}
-
-	}
 
 </style>
