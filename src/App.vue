@@ -6,7 +6,9 @@
         .container-fluid
           router-link(to="/" , v-bind:class=" { 'is-visible': $route.path != '/' } ").back: i.fas.fa-chevron-left
 
-          a(href='index.html').navbar-brand.logo.mr-auto {{ navTitle }}
+          a(href='index.html').navbar-brand.logo.mr-auto
+            span
+            | {{ navTitle }}
 
           button(v-on:click='isHidden = !isHidden' , v-bind:class='{nav_open: isHidden}' , type='button').navbar-toggler
             span.line
@@ -22,6 +24,7 @@
                 router-link(to="/" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                     img(src="src/assets/icon-1.png")
+                  i.fas.fa-arrow-right
                   | Übersicht
 
             .side-chapter
@@ -32,21 +35,25 @@
                 router-link(to="/page_2" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                     img(src="src/assets/icon-1.png")
+                  i.fas.fa-arrow-right
                   | Geschwindigkeitsverstoß
               li
                 router-link(to="/page_3" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                     img(src="src/assets/icon-2.png")
+                  i.fas.fa-arrow-right
                   | Abstandsverstoß
               li
                 router-link(to="/page_4" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                     img(src="src/assets/icon-3.png")
+                  i.fas.fa-arrow-right
                   | Rotlichtverstoß
               li
                 router-link(to="/wahlen" , v-on:click.native='isHidden = !isHidden')
                   span.nav-icon
                     img(src="src/assets/icon-4.png")
+                  i.fas.fa-arrow-right
                   | Bußgeldrechner
 
             .side-chapter
@@ -54,9 +61,13 @@
 
             ul.side-nav
               li
-                router-link(to="/page_6" , v-on:click.native='isHidden = !isHidden') Impressum
-              li
-                router-link(to="/page7" , v-on:click.native='isHidden = !isHidden') Test Toast
+                router-link(to="/page_6" , v-on:click.native='isHidden = !isHidden')
+                  i.fas.fa-arrow-right
+                  |Impressum
+              <!--li
+                router-link(to="/page7" , v-on:click.native='isHidden = !isHidden') Test Toast-->
+
+    .header__img(v-bind:class=" { 'is-hidden': $route.path != '/' } ")
 
     app-title
     
@@ -192,6 +203,12 @@ header {
             max-height: 17px;
           }
       }
+      i {
+        display: none;
+        margin-right: 10px;
+        font-size: 12px;
+        color: $red-color;
+      }
   }
 
   .side-chapter {
@@ -213,6 +230,15 @@ header {
     color: #FFF;
       &:hover , &:focus , &:active {
         color: #FFF;
+      }
+      span {
+        width: 29px;
+        height: 29px;
+        display: none;
+        vertical-align: middle;
+        background: url(assets/logo.png) no-repeat;
+        background-size: cover;
+        margin-right: 10px;
       }
   }
 
@@ -271,6 +297,120 @@ header {
     display: inline-block;
   }
 
-  .side-navbar-nav {}
+  .header__img {
+    height: 130px;
+    background: url(assets/pageheader.jpg) center 64% no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    margin-left: 278px;
+    display: none;
+      &.is-hidden {
+        display: none;
+          & + .title__section {
+            margin-top: 0px;
+          }
+      }
+  }
+
+// Media query
+
+@media screen and (min-width: 992px) {
+  
+  .logo span {
+    display: inline-block;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .navbar {
+    
+    .side-navbar-nav {
+      width: 278px;
+      right: auto;
+      top: 60px;
+      left: 0;
+      background: #f2f2f2;
+      -webkit-transform: translate(0);
+         -moz-transform: translate(0);
+          -ms-transform: translate(0);
+           -o-transform: translate(0);
+              transform: translate(0);
+      
+        .side-navbar-title {
+          display: none;
+        }
+
+    }
+
+    .side-nav {
+      
+      a {
+        font-size: 16px;
+      }
+
+      .nav-icon {
+        display: none;
+      }
+
+      i {
+        display: inline-block;
+      }
+
+      /*&:last-child {
+        li:last-child {
+          display: none;
+        }
+      }*/
+
+    }
+
+    .side-chapter {
+      border-color: #cecece;
+    }
+
+  }
+
+  .item {
+    padding-left: 308px;
+    padding-top: 40px;
+  }
+
+  .item__box {
+    max-width: 840px;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    
+    &__title {
+      font-size: 20px;
+    }
+
+    &__icon {
+      width: 94px;
+      height: 94px;
+      line-height: 94px;
+      float: none;
+    }
+
+  }
+
+  .list__title {
+    font-size: 28px;
+    border: none;
+  }
+
+  .header__img {
+    display: block;
+  }
+
+  .header__img.is-hidden + .title__section {
+    margin-top: 60px;
+  }
+
+}
 
 </style>

@@ -14,4 +14,15 @@
 		color: #a5a5a5;
 	}
 
+// Media query
+
+@media screen and (min-width: 992px) {
+	
+	.impressum {
+		padding-top: 40px;
+		padding-left: 308px;
+	}
+
+}
+
 </style>

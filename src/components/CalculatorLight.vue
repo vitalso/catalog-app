@@ -1,6 +1,8 @@
 <template lang="pug">
 
 	div.item.calculate.container-fluid
+		h3 Bußgeldrechner Rotlicht
+		
 		form
 
 			.item__box
@@ -19,7 +21,7 @@
 			.item__box
 				h5.item__box__title Ist eine Gefährdung oder ein Sachschaden entstanden?
 
-				.box__form
+				.box__form.row-direction
 					.form__row
 						.form__input
 							input(type="radio" , name="radio2" , checked)#radio-3

@@ -6,6 +6,7 @@
 				img(src="src/assets/icon-1.png")
 			.item__box__desc
 				h5.item__box__title Geschwindigkeitsverstoß
+				p Sie sollen zu schnell gefahren sein? Rechnen Sie aus wie teuer es wird
 				router-link(to="/calculator_speed") KATALOG AUFRUFEN
 
 		router-link(to="/calculator_distance").item__box
@@ -13,6 +14,7 @@
 				img(src="src/assets/icon-2.png")
 			.item__box__desc
 				h5.item__box__title Abstandsverstoß
+				p Sie sollen den erforderlichen Mindestabstand nicht eingehalten haben?
 				router-link(to="/calculator_distance") KATALOG AUFRUFEN
 
 		router-link(to="/calculator_light").item__box
@@ -20,6 +22,7 @@
 				img(src="src/assets/icon-3.png")
 			.item__box__desc
 				h5.item__box__title Rotlichtverstoß
+				p Sie sollen über eine Rote Ampel gefahren sein?
 				router-link(to="/calculator_light") KATALOG AUFRUFEN
 
 </template>
@@ -33,6 +36,11 @@
 	.calculate.item {
 		padding-top: 86px;
 	}
+
+		.calculate h3 {
+			font-size: 28px;
+			display: none;
+		}
 
 	.calculate .item__box {
 		display: block;
@@ -135,5 +143,24 @@
 			.number__range span {
 				margin-right: 5px;
 			}
+
+/* Media query */
+
+@media screen and (min-width: 992px) {
+	
+	.calculate h3 {
+		display: block;
+	}
+
+	.box__form.row-direction {
+		display: flex;
+	}
+
+		.box__form.row-direction .form__row {
+			display: block;
+    		margin-right: 40px;
+		}
+
+}
 
 </style>

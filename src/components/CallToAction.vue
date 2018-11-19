@@ -62,6 +62,7 @@
 				    -ms-transform: translateY(0);
 				     -o-transform: translateY(0);
 				        transform: translateY(0);
+			    z-index: 2;
 			}
 		p {
 			margin-bottom: 0;
@@ -78,5 +79,17 @@
 		}
 
 	}
+
+// Media query
+
+@media screen and (min-width: 992px) {
+	
+	.cta {
+		max-width: 630px;
+    	left: 50%;
+    	margin-left: -315px;
+	}
+
+}
 
 </style>

@@ -21,6 +21,10 @@
 						li Punkte: 0 
 						li Fahrverbot: 0
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 10-15 km/h
@@ -32,6 +36,10 @@
 						li Strafe: 25 € 
 						li Punkte: 0 
 						li Fahrverbot: 0
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -45,6 +53,10 @@
 						li Punkte: 0 
 						li Fahrverbot: 0
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 21-25 km/h
@@ -56,6 +68,10 @@
 						li Strafe: 80 € 
 						li Punkte: 1 
 						li Fahrverbot: 0
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -69,6 +85,10 @@
 						li Punkte: 1 
 						li: span Fahrverbot im Wiederholungsfall
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 31-40 km/h
@@ -80,6 +100,10 @@
 						li Strafe: 160 € 
 						li Punkte: 2
 						li Fahrverbot: 1 Monat
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -93,6 +117,10 @@
 						li Punkte: 2
 						li Fahrverbot: 1 Monat
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 51-60 km/h
@@ -104,6 +132,10 @@
 						li Strafe: 280 € 
 						li Punkte: 2
 						li Fahrverbot: 2 Monat
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 		ul.inner__nav.right-nav
 			li: a(href="#" , v-scroll-to={ el: '#auserorts' , duration: 1000 , offset: -150 } ) Außerorts
@@ -124,6 +156,10 @@
 						li Punkte: 0 
 						li Fahrverbot: 0
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 10-15 km/h
@@ -135,6 +171,10 @@
 						li Strafe: 20 € 
 						li Punkte: 0 
 						li Fahrverbot: 0
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -148,6 +188,10 @@
 						li Punkte: 0 
 						li Fahrverbot: 0
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 21-25 km/h
@@ -159,6 +203,10 @@
 						li Strafe: 70 € 
 						li Punkte: 1 
 						li Fahrverbot: 0
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -172,6 +220,10 @@
 						li Punkte: 1 
 						li: span Fahrverbot im Wiederholungsfall
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 31-40 km/h
@@ -183,6 +235,10 @@
 						li Strafe: 120 € 
 						li Punkte: 1
 						li: span Fahrverbot im Wiederholungsfall
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -196,6 +252,10 @@
 						li Punkte: 2
 						li Fahrverbot: 1 Monat
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 51-60 km/h
@@ -207,6 +267,10 @@
 						li Strafe: 240 € 
 						li Punkte: 2
 						li Fahrverbot: 1 Monat
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -220,6 +284,10 @@
 						li Punkte: 2
 						li Fahrverbot: 1 Monat
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 über 70 km/h
@@ -231,6 +299,10 @@
 						li Strafe: 600 € 
 						li Punkte: 2
 						li Fahrverbot: 3 Monat
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 		cta
 
@@ -283,6 +355,11 @@
 	}
 
 	.inner .item__box {
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	    -webkit-align-items: center;
+	            align-items: center;
 		-webkit-justify-content: space-between;
 		        justify-content: space-between;
 	}
@@ -319,5 +396,49 @@
 						.inner .item__box .box__list li span {
 							font-size: 12px;
 						}
+
+		.inner .item__box .box__side.show-on-desktop {
+			display: none;
+		}
+
+/* Media query */
+
+@media screen and (min-width: 992px) {
+
+	.inner__nav {
+		max-width: 840px;
+	}
+	
+	.inner .item__box .box__list {
+		width: auto;
+	}
+
+		.inner .item__box .box__list li {
+			display: inline-block;
+			padding-left: 20px;
+		}
+
+		.inner .item__box .box__side p {
+			display: none;
+		}
+		
+		.inner .item__box .box__side.show-on-desktop {
+			display: block;
+		}
+
+		.inner .item__box .box__side.show-on-desktop p {
+			display: block;
+		}
+
+		.inner .item__box h4 {
+			margin-bottom: 0;
+		}
+
+		.inner .item__box .box__side:first-child {
+			width: 100%;
+			max-width: 220px;
+		}
+
+}
 
 </style>

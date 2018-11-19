@@ -22,6 +22,10 @@
 						li Punkte: 1 
 						li Fahrverbot: 0
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 4/10 des halben Tachowertes
@@ -33,6 +37,10 @@
 						li Strafe: 180 € 
 						li Punkte: 1 
 						li Fahrverbot: 0
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -46,6 +54,10 @@
 						li Punkte: 2 
 						li Fahrverbot: 1 Monat
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 2/10 des halben Tachowertes
@@ -58,6 +70,10 @@
 						li Punkte: 2 
 						li Fahrverbot: 2 Monat
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 1/10 des halben Tachowertes
@@ -69,6 +85,10 @@
 						li Strafe: 400 € 
 						li Punkte: 2
 						li Fahrverbot: 3 Monate
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 		ul.inner__nav.right-nav
 			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -150 } ) > 130 km/h
@@ -90,6 +110,10 @@
 						li Punkte: 1 
 						li Fahrverbot: 0
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 4/10 des halben Tachowertes
@@ -101,6 +125,10 @@
 						li Strafe: 100 € 
 						li Punkte: 1 
 						li Fahrverbot: 0
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -114,6 +142,10 @@
 						li Punkte: 2 
 						li Fahrverbot: 1 Monat
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 2/10 des halben Tachowertes
@@ -126,6 +158,10 @@
 						li Punkte: 2 
 						li Fahrverbot: 2 Monat
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 1/10 des halben Tachowertes
@@ -137,6 +173,10 @@
 						li Strafe: 320 € 
 						li Punkte: 2 
 						li Fahrverbot: 3 Monate
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 		ul.inner__nav.right-nav
 			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -150 } ) > 130 km/h
@@ -158,6 +198,10 @@
 						li Punkte: 1 
 						li Fahrverbot: 0
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 4/10 des halben Tachowertes
@@ -169,6 +213,10 @@
 						li Strafe: 100 € 
 						li Punkte: 1 
 						li Fahrverbot: 0
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 			.item__box
 				.box__side
@@ -182,6 +230,10 @@
 						li Punkte: 2 
 						li Fahrverbot: 1 Monat
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 2/10 des halben Tachowertes
@@ -194,6 +246,10 @@
 						li Punkte: 2 
 						li Fahrverbot: 0
 
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 			.item__box
 				.box__side
 					h4 1/10 des halben Tachowertes
@@ -205,6 +261,10 @@
 						li Strafe: 320 € 
 						li Punkte: 1 
 						li Fahrverbot: 0
+
+				.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 		cta
 

@@ -14,6 +14,10 @@
 					li Punkte: 1 
 					li Fahrverbot: 0
 
+			.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 		.item__box
 			.box__side
 				h4 Rote Rote Ampel überfahren die schon länger als 1 Sekunde rot war
@@ -25,6 +29,10 @@
 					li Strafe: 90 € 
 					li Punkte: 1 
 					li Fahrverbot: 0
+
+			.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 		.item__box
 			.box__side
@@ -38,6 +46,10 @@
 					li Punkte: 1 
 					li Fahrverbot: 1
 
+			.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 		.item__box
 			.box__side
 				h4 Rote Ampel überfahren + Gefährdung
@@ -49,6 +61,10 @@
 					li Strafe: 240 € 
 					li Punkte: 2 
 					li Fahrverbot: 1
+
+			.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 		.item__box
 			.box__side
@@ -62,6 +78,10 @@
 					li Punkte: 2 
 					li Fahrverbot: 1
 
+			.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 		.item__box
 			.box__side
 				h4 Rote Ampel die schon länger als 1 Sekunde rot war mit Sachbeschädigung
@@ -74,6 +94,10 @@
 					li Punkte: 2 
 					li Fahrverbot: 1
 
+			.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
+
 		.item__box
 			.box__side
 				h4 Rote Ampel (mit Grünpfeil nach rechts) ohne anhalten und überfahren um rechts abzubiegen.
@@ -85,6 +109,10 @@
 					li Strafe: /0 € 
 					li Punkte: ! 
 					li Fahrverbot: =
+
+			.box__side.show-on-desktop
+					p: a(href="#").default__btn Einspruch sinnvoll?
+					p: a(href="#") Hier gratis prüfen
 
 		cta
 		

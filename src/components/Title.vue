@@ -49,4 +49,30 @@
 		.title__section.hidden {
 			display: none;
 		}
+
+
+// Media query
+
+@media screen and (min-width: 991px) {
+	
+	.title__section {
+	    position: relative;
+	    padding: 45px 0 0 308px;
+	    background: transparent;
+	    top: auto;
+	    
+			h1 {
+				font-size: 28px;
+			}
+
+			&.inner-title {
+				h1 {
+					font-size: 28px;
+				}
+			}
+
+	  }
+
+}
+
 </style>

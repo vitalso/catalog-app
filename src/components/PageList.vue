@@ -133,6 +133,7 @@
 
 		.item__box__icon {
 			width: 68px;
+			min-width: 68px;
     		height: 68px;
     		line-height: 68px;
     		text-align: center;
