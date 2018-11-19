@@ -236,7 +236,7 @@ header {
         height: 29px;
         display: none;
         vertical-align: middle;
-        background: url(assets/logo.png) no-repeat;
+        background: url(/src/assets/logo.png) no-repeat;
         background-size: cover;
         margin-right: 10px;
       }
@@ -299,7 +299,7 @@ header {
 
   .header__img {
     height: 130px;
-    background: url(assets/pageheader.jpg) center 64% no-repeat;
+    background: url(/src/assets/pageheader.jpg) center 64% no-repeat;
     background-size: cover;
     margin-top: 60px;
     margin-left: 278px;
