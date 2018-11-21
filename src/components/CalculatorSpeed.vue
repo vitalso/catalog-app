@@ -11,7 +11,7 @@
 			
 			a(href="#").result__btn EINSPRUCH KOSTENLOS PRÜFEN
 		
-		form
+		div
 
 			.item__box
 				h5.item__box__title Was für ein Fahrzeug wurde gefahren?
@@ -52,6 +52,9 @@
 						| km / h
 					range-slider(class="slider" , min="0" , max="100" , step="1" , v-model="sliderValue")
 
+			.wrap__result.text-center
+				button(v-on:click="calculate").result__btn Ergebnis anzeigen
+
 </template>
 
 <script>
@@ -72,8 +75,8 @@
 	      	sliderValue: 0
 	    }
 	  },
-	  watch: {
-	  	sliderValue: function() {
+	  methods: {
+	  	calculate: function() {
 
 	  		this.isResult = true
 

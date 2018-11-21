@@ -1,8 +1,11 @@
 <template lang="pug">
 	
 	.cta(v-bind:class="{ 'show-modal': showCTA }")
-		p Lohnt sich ein Einspruch gegen Ihren Bußgeldbescheid?
-		a(href="#").cta__btn GRATIS PRÜFEN
+		a(href="#").hole__cta
+			p Lohnt sich ein Einspruch gegen Ihren Bußgeldbescheid?
+			button.cta__btn GRATIS PRÜFEN
+
+		a(href="#" , v-on:click=" showCTA = !showCTA ").close__cta: i.fas.fa-times
 
 </template>
 
@@ -41,9 +44,6 @@
 		background: rgba(0, 0, 0, .7);
 		font-weight: 500;
 		color: #FFF;
-		display: flex;
-    	justify-content: space-between;
-    	align-items: center;
     	-webkit-transform: translateY(200px);
     	   -moz-transform: translateY(200px);
     	    -ms-transform: translateY(200px);
@@ -64,6 +64,17 @@
 				        transform: translateY(0);
 			    z-index: 2;
 			}
+
+		.hole__cta {
+			display: flex;
+	    	justify-content: space-between;
+	    	align-items: center;
+	    	color: #FFF;
+	    		&:hover {
+					color: #FFF;
+				}
+		}
+			
 		p {
 			margin-bottom: 0;
 		}
@@ -74,8 +85,20 @@
 			font-weight: 700;
 			color: #FFF;
 			background: #5DAB5D;
+			cursor: pointer;
 			-webkit-border-radius: 6px;
 			        border-radius: 6px;
+		}
+
+		.close__cta {
+			position: absolute;
+			top: 3px;
+			right: 7px;
+			font-size: 12px;
+			color: #FFF;
+				&:hover {
+					color: #FFF;
+				}
 		}
 
 	}
@@ -88,6 +111,19 @@
 		max-width: 630px;
     	left: 50%;
     	margin-left: -315px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	
+	.cta {
+		
+		.cta__btn {
+			min-width: 120px;
+			font-size: 12px;
+		}
+
 	}
 
 }

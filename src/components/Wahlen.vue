@@ -102,6 +102,7 @@
 				font-size: 18px;
 				color: #525252;
 				cursor: pointer;
+				vertical-align: middle;
 			}
 
 	.slider {
@@ -200,6 +201,7 @@
 		text-align: center;
 		font-size: 14px;
 		color: #fff;
+		cursor: pointer;
 		-webkit-border-radius: 6px;
 		        border-radius: 6px;
 	}
@@ -208,6 +210,19 @@
 			opacity: .8;
 			color: #FFF;
 		}
+
+	.wrap__result {
+		max-width: 840px;
+		margin-top: 40px;
+	}
+
+		.wrap__result button {
+			text-transform: uppercase;
+		}
+
+			.wrap__result button:focus , .wrap__result button:active {
+				outline: none;
+			}
 
 /* Media query */
 

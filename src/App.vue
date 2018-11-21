@@ -238,6 +238,7 @@ header {
         vertical-align: middle;
         background: url(/src/assets/logo.png) no-repeat;
         background-size: cover;
+        margin-top: -1px;
         margin-right: 10px;
       }
   }
@@ -379,6 +380,7 @@ header {
 
   .item__box {
     max-width: 840px;
+    padding: 30px;
     -webkit-justify-content: space-between;
             justify-content: space-between;
     -webkit-flex-direction: row-reverse;

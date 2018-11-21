@@ -3,7 +3,7 @@
 	div.item.calculate.container-fluid
 		h3 Bußgeldrechner Abstand
 
-		form
+		div
 
 			.item__box
 				h5.item__box__title Wie schnell sind Sie gefahren?
@@ -33,8 +33,8 @@
 				.box__form
 					.number__range
 						span(v-text="sliderValue").mr-0
-						| /10 des halben Tachowertes
-					range-slider(class="slider" , min="0" , max="10" , step="1" , v-model="sliderValue")
+						| /5 des halben Tachowertes
+					range-slider(class="slider" , min="0" , max="5" , step="1" , v-model="sliderValue")
 
 </template>
 
