@@ -2,16 +2,21 @@
 
 	div.item.calculate.container-fluid
 		h3 Bußgeldrechner Geschwindigkeit
-
-		.calculate__result( v-bind:class='{ show_result : isResult }' )
-			.result
-				span.icon: img(src="src/assets/icon_error.png")
-				| Es drohen Ihnen {{ strafe }} €, {{ punkte }} Punkte, {{ verbot }} Monate Fahrverbot
-			p Mehr als jeder zweite Bußgeldbescheid ist anfechtbar!
-			
-			a(href="#").result__btn EINSPRUCH KOSTENLOS PRÜFEN
 		
-		div
+		.wrap__calculate__result( v-bind:class='{ show_result : isResult }' )
+			.calculate__result
+				.result
+					span.icon: img(src="src/assets/icon_error.png")
+					| Es drohen Ihnen {{ strafe }} €, {{ punkte }} Punkte, {{ verbot }} Monate Fahrverbot
+				p Mehr als jeder zweite Bußgeldbescheid ist anfechtbar!
+				
+				a(href="#").result__btn EINSPRUCH KOSTENLOS PRÜFEN
+
+			a(v-on:click='isResult = !isResult' , href="#").back__to
+				i.fas.fa-chevron-left
+				| neu berechnen
+		
+		.calculate__input( v-bind:class='{ hide_calculate : isResult }' )
 
 			.item__box
 				h5.item__box__title Was für ein Fahrzeug wurde gefahren?

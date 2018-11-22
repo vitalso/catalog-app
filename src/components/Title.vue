@@ -1,6 +1,6 @@
 <template lang="pug">
 	
-	.title__section(v-bind:class=" { 'inner-title': $route.path != '/' , 'hidden': $route.path == '/calculator_speed' || $route.path== '/calculator_distance' || $route.path == '/calculator_light' } ")
+	.title__section(v-bind:class=" { 'inner-title': $route.path != '/' , 'hidden': $route.path == '/calculator_speed' || $route.path== '/calculator_distance' || $route.path == '/calculator_light' || $route.path == '/result_speed' } ")
 		h1 {{ pageTitle }}
 
 </template>
