@@ -254,6 +254,7 @@
 			font-size: 12px;
 			margin-right: 10px;
 			margin-top: -3px;
+			vertical-align: middle;
 		}
 
 		.back__to:hover {
