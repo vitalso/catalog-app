@@ -1,11 +1,9 @@
 <template lang="pug">
 	
 	.cta(v-bind:class="{ 'show-modal': showCTA }")
-		a(href="#").hole__cta
+		a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").hole__cta
 			p Lohnt sich ein Einspruch gegen Ihren Bußgeldbescheid?
 			button.cta__btn GRATIS PRÜFEN
-
-		a(href="#" , v-on:click=" showCTA = !showCTA ").close__cta: i.fas.fa-times
 
 </template>
 
@@ -90,16 +88,6 @@
 			        border-radius: 6px;
 		}
 
-		.close__cta {
-			position: absolute;
-			top: 3px;
-			right: 7px;
-			font-size: 12px;
-			color: #FFF;
-				&:hover {
-					color: #FFF;
-				}
-		}
 
 	}
 

@@ -1,22 +1,50 @@
 <template lang="pug">
 
 	div.item.calculate.container-fluid
-		h3 Bußgeldrechner Geschwindigkeit
+		h3 Bußgeldrechner
+
+		.wrap__animation(v-bind:class='{ is_animation : isShow }')
+			.item__box
+				.item__animate
+				p.title__result.text-center Ihr Ergebnis wird berechnet...
+
+		.wrap__pre__result.text-center(v-bind:class='{ pre_result: isPre }')
+			.item__box
+				img(src="src/assets/icon_error.png").pre_result_img
+				p.title__result Hinweis für Ihre Berechnung: Möglicherweise lohnt ein Einspruch gegen Ihr Ergebnis!
+				p Mindestens jeder zweite Bußgeldbescheid ist anfechtbar. Nutzen Sie die Möglichkeit zur kostenlosen Ersteinschätzung Ihres Falls binnen weniger Minuten bei der Ergebnisanzeige 
+				
+				p: button(v-on:click="calculate").result__btn ERGEBNIS ANZEIGEN
+
+				p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Bußgeldbescheid direkt kostenlos prüfen
 		
 		.wrap__calculate__result( v-bind:class='{ show_result : isResult }' )
-			.calculate__result
-				.result
-					span.icon: img(src="src/assets/icon_error.png")
-					| Es drohen Ihnen {{ strafe }} €, {{ punkte }} Punkte, {{ verbot }} Monate Fahrverbot
-				p Mehr als jeder zweite Bußgeldbescheid ist anfechtbar!
-				
-				a(href="#").result__btn EINSPRUCH KOSTENLOS PRÜFEN
+			.item__box
+				p.title__result.text-center Ihr Berechnungsergebnis
+				ul.result__list
+					li
+						|{{ strafe }} €
+						span Bußgeld *
+					li
+						|{{ verbot }} Monate 
+						span Fahrverbot*
+					li
+						|{{ punkte }} 
+						span Punkt *
 
-			a(v-on:click='isResult = !isResult' , href="#").back__to
-				i.fas.fa-chevron-left
-				| neu berechnen
+				.text-center
+					p.result Mehr als jeder zweite Bußgeldbescheid ist anfechtbar!
+				
+					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").result__btn EINSPRUCH KOSTENLOS PRÜFEN
+
+					p
+						a(v-on:click='isHide = !isHide , isResult = !isResult ' , href="#").back__to
+							i.fas.fa-chevron-left
+							| Neu berechnen
+
+					p * Von diesem Wert kann abgewichen werden, wenn Sie bereits Punkte in Flensburg haben oder Ihnen vorsätzliche Begehung vorgeworfen wird.
 		
-		.calculate__input( v-bind:class='{ hide_calculate : isResult }' )
+		.calculate__input( v-bind:class='{ hide_calculate : isHide }' )
 
 			.item__box
 				h5.item__box__title Was für ein Fahrzeug wurde gefahren?
@@ -58,7 +86,7 @@
 					range-slider(class="slider" , min="0" , max="100" , step="1" , v-model="sliderValue")
 
 			.wrap__result.text-center
-				button(v-on:click="calculate").result__btn Ergebnis anzeigen
+				button(v-on:click="preCalculate").result__btn Ergebnis anzeigen
 
 </template>
 
@@ -71,7 +99,10 @@
 	export default {
 	  data () {
 	    return {
+	    	isPre: false,
+	    	isShow: false,
 	    	isResult: false,
+	    	isHide: false,
 	    	pk_lk: 'PKW',
 	    	au_in: 'AU',
 	    	strafe: 0,
@@ -81,8 +112,24 @@
 	    }
 	  },
 	  methods: {
+
+	  	preCalculate: function() {
+
+	  		this.isShow = true
+	  		this.isHide = true
+
+	  		setTimeout(() => {
+
+	  			this.isShow = !this.isShow
+	  			this.isPre = true
+
+	  		} , 2000)
+
+	  	},
+
 	  	calculate: function() {
 
+	  		this.isPre = !this.isPre
 	  		this.isResult = true
 
 	  		// PKW AU
@@ -330,6 +377,7 @@
 	  	}
 
 	  },
+
 	  components: {
 	  	RangeSlider
 	  }
