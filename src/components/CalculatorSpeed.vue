@@ -81,7 +81,8 @@
 
 				.box__form
 					.number__range
-						span(v-text="sliderValue")
+						input(type="number" , max="100" , v-model="sliderValue").slider__type
+						<!--span(v-text="sliderValue")-->
 						| km / h
 					range-slider(class="slider" , min="0" , max="100" , step="1" , v-model="sliderValue")
 

@@ -183,7 +183,7 @@
 		-webkit-flex: 0 0 33%;
 		    	flex: 0 0 33%;
 		text-align: center;
-		font-size: 28px;
+		font-size: 24px;
 		color: #000;
 		border-right: 1px solid #a5a5a5;
 	}
@@ -210,10 +210,15 @@
 
 		.wrap__animation.is_animation {
 			position: absolute;
-			width: 100%;
+			width: 96%;
+			left: 2%;
     		max-width: 840px;
 			background: #FFF;
 			z-index: 1;
+		}
+
+		.slider__type {
+			width: 50px;
 		}
 
 	.result {
@@ -262,6 +267,7 @@
 
 		.wrap__result button {
 			text-transform: uppercase;
+			font-weight: 700;
 		}
 
 			.wrap__result button:focus , .wrap__result button:active {
@@ -363,6 +369,10 @@
 	.calculate__result {
 		max-width: 840px;
 		margin: 0 0 20px 0;
+	}
+
+	.wrap__animation.is_animation {
+		left: auto;
 	}
 
 }

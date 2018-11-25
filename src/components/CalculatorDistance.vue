@@ -73,7 +73,8 @@
 
 				.box__form
 					.number__range
-						span(v-text="sliderValue").mr-0
+						input(type="number" , max="5" , v-model="sliderValue").slider__type
+						<!--span(v-text="sliderValue").mr-0-->
 						| /5 des halben Tachowertes
 					range-slider(class="slider" , min="0" , max="5" , step="1" , v-model="sliderValue")
 
