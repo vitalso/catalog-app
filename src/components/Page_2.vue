@@ -310,6 +310,16 @@
 
 <script>
 
+	export default {
+
+		data: function() {
+			return {
+				isHidden: false
+			}
+		}
+
+	}
+
 </script>
 
 <style>
@@ -369,6 +379,7 @@
 				font-size: 18px;
 				font-weight: 500;
 				color: #000;
+				padding-right: 15px;
 			}
 
 			.inner .item__box p {
@@ -407,6 +418,10 @@
 
 	.inner__nav {
 		max-width: 840px;
+	}
+
+	.inner .item__box h4 {
+		padding-right: 0;
 	}
 	
 	.inner .item__box .box__list {

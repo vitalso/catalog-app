@@ -273,6 +273,16 @@
 
 <script>
 
+	export default {
+
+		data: function() {
+			return {
+				isHidden: false
+			}
+		}
+
+	}
+
 </script>
 
 <style lang="scss">
