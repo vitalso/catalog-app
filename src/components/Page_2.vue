@@ -9,11 +9,11 @@
 		h3 Verstoß außerorts
 
 		#auserorts
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 bis 10 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -22,14 +22,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 10-15 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -38,14 +38,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 16-20 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -54,14 +54,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 21-25 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -70,14 +70,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 26-30 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -86,14 +86,14 @@
 						li: span Fahrverbot im Wiederholungsfall
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 31-40 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -102,14 +102,14 @@
 						li Fahrverbot: 1 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 41-50 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -118,14 +118,14 @@
 						li Fahrverbot: 1 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 51-60 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -134,8 +134,8 @@
 						li Fahrverbot: 2 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 		ul.inner__nav.right-nav
 			li: a(href="#" , v-scroll-to={ el: '#auserorts' , duration: 1000 , offset: -150 } ) Außerorts
@@ -144,11 +144,11 @@
 		h3 Verstoß innerorts
 
 		#innerorts
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 bis 10 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -157,14 +157,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 10-15 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -173,14 +173,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 16-20 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -189,14 +189,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 21-25 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -205,14 +205,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 26-30 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -221,14 +221,14 @@
 						li: span Fahrverbot im Wiederholungsfall
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 31-40 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -237,14 +237,14 @@
 						li: span Fahrverbot im Wiederholungsfall
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 41-50 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -253,14 +253,14 @@
 						li Fahrverbot: 1 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 51-60 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -269,14 +269,14 @@
 						li Fahrverbot: 1 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 61-70 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -285,14 +285,14 @@
 						li Fahrverbot: 1 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 über 70 km/h
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -301,8 +301,8 @@
 						li Fahrverbot: 3 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 		cta
 

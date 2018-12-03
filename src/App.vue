@@ -15,7 +15,8 @@
             span.line
             span.line
 
-          .side-navbar-nav(v-bind:class="{ navbar_open: isHidden }")
+          <!--.side-navbar-nav(v-bind:class="{ navbar_open: isHidden }")-->
+          .side-navbar-nav.navbar_open(v-show="isHidden")
             .side-navbar-title
               span MENÜ
             
@@ -332,6 +333,7 @@ header {
       right: auto;
       top: 60px;
       left: 0;
+      display: block !important;
       background: #f2f2f2;
       -webkit-transform: translate(0);
          -moz-transform: translate(0);

@@ -10,11 +10,11 @@
 		h3 Verstoß bei über 130 km/h
 
 		#up-130
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 5/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -23,14 +23,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 4/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -39,14 +39,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 3/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -55,14 +55,14 @@
 						li Fahrverbot: 1 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 2/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -71,14 +71,14 @@
 						li Fahrverbot: 2 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 1/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -87,8 +87,8 @@
 						li Fahrverbot: 3 Monate
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 		ul.inner__nav.right-nav
 			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -150 } ) > 130 km/h
@@ -98,11 +98,11 @@
 		h3 Verstoß bei über 100 km/h
 
 		#up-100
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 5/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -111,14 +111,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 4/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -127,14 +127,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 3/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -143,14 +143,14 @@
 						li Fahrverbot: 1 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 2/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -159,14 +159,14 @@
 						li Fahrverbot: 2 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 1/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -175,8 +175,8 @@
 						li Fahrverbot: 3 Monate
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 		ul.inner__nav.right-nav
 			li: a(href="#" , v-scroll-to={ el: '#up-130' , duration: 1000 , offset: -150 } ) > 130 km/h
@@ -186,11 +186,11 @@
 		h3 Verstoß bei über 80 km/h
 
 		#up-80
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 5/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -199,14 +199,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 4/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -215,14 +215,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 3/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -231,14 +231,14 @@
 						li Fahrverbot: 1 Monat
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 2/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -247,14 +247,14 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
-			a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").item__box
+			.item__box
 				.box__side
 					h4 1/10 des halben Tachowertes
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 				.box__side
 					ul.box__list
@@ -263,8 +263,8 @@
 						li Fahrverbot: 0
 
 				.box__side.show-on-desktop
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").default__btn Bescheid gültig?
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Hier gratis prüfen
 
 		cta
 

@@ -1,7 +1,7 @@
 <template lang="pug">
 	
 	.cta(v-bind:class="{ 'show-modal': showCTA }")
-		a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").hole__cta
+		a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").hole__cta
 			p Lohnt sich ein Einspruch gegen Ihren Bußgeldbescheid?
 			button.cta__btn GRATIS PRÜFEN
 

@@ -16,7 +16,7 @@
 				
 				p: button(v-on:click="calculate").result__btn ERGEBNIS ANZEIGEN
 
-				p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Bußgeldbescheid direkt kostenlos prüfen
+				p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2") Bußgeldbescheid direkt kostenlos prüfen
 
 		.wrap__calculate__result( v-bind:class='{ show_result : isResult }' )
 			.item__box
@@ -35,7 +35,7 @@
 				.text-center
 					p.result Mehr als jeder zweite Bußgeldbescheid ist anfechtbar!
 				
-					p: a(onclick="return gtag_report_conversion('https://blitzerkanzlei.de/?ref=bussgeldkatalogv2');" , href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").result__btn EINSPRUCH KOSTENLOS PRÜFEN
+					p: a(href="https://blitzerkanzlei.de/?ref=bussgeldkatalogv2").result__btn EINSPRUCH KOSTENLOS PRÜFEN
 
 					p
 						a(v-on:click='isHide = !isHide , isResult = !isResult ' , href="#").back__to
